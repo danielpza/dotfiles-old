@@ -1,0 +1,7 @@
+[user]
+	email = danielpza@protonmail.com
+	name = Daniel Perez Alvarez
+[credential]
+	helper = store
+[github]
+	user = danielpza

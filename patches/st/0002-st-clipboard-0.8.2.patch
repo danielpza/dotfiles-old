@@ -1,0 +1,34 @@
+From 612940422692de857b9c9f17b3a2ad6a1330dedf Mon Sep 17 00:00:00 2001
+From: Daniel Perez Alvarez <danielpza@protonmail.com>
+Date: Sat, 28 Sep 2019 09:33:28 +0000
+Subject: [PATCH 2/3] st-clipboard-0.8.2
+
+---
+ x.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/x.c b/x.c
+index 5828a3b..1862afc 100644
+--- a/x.c
++++ b/x.c
+@@ -631,6 +631,8 @@ setsel(char *str, Time t)
+ 	XSetSelectionOwner(xw.dpy, XA_PRIMARY, xw.win, t);
+ 	if (XGetSelectionOwner(xw.dpy, XA_PRIMARY) != xw.win)
+ 		selclear();
++
++	clipcopy(NULL);
+ }
+ 
+ void
+@@ -648,7 +650,7 @@ brelease(XEvent *e)
+ 	}
+ 
+ 	if (e->xbutton.button == Button2)
+-		selpaste(NULL);
++		clippaste(NULL);
+ 	else if (e->xbutton.button == Button1)
+ 		mousesel(e, 1);
+ }
+-- 
+2.17.1
+

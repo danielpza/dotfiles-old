@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=setxkbmap -option caps:escape
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[en_US]=Caps Escape
+Name=Caps Escape
+Comment[en_US]=
+Comment=

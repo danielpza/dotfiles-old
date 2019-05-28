@@ -1,0 +1,113 @@
+From 4cf42b0b7ba565adcc49e94dfa05f631f91d05da Mon Sep 17 00:00:00 2001
+From: Daniel Perez Alvarez <danielpza@protonmail.com>
+Date: Mon, 10 Jun 2019 00:34:54 -0400
+Subject: [PATCH 9/9] tweaks
+
+---
+ config.def.h | 28 +++++++++++++++-------------
+ dwm.c        |  2 --
+ 2 files changed, 15 insertions(+), 15 deletions(-)
+
+diff --git a/config.def.h b/config.def.h
+index f1d0709..797438f 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -1,8 +1,8 @@
+ /* See LICENSE file for copyright and license details. */
+ 
+ /* appearance */
+-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+-static const unsigned int gappx     = 5;        /* gaps between windows */
++static const unsigned int borderpx  = 3;        /* border pixel of windows */
++static const unsigned int gappx     = 20;        /* gaps between windows */
+ static const unsigned int snap      = 32;       /* snap pixel */
+ static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
+ static const unsigned int systrayspacing = 2;   /* systray spacing */
+@@ -40,7 +40,7 @@ static const Rule rules[] = {
+ /* layout(s) */
+ static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
+ static const int nmaster     = 1;    /* number of clients in master area */
+-static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
++static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
+ static const int attachbelow = 1;    /* 1 means attach after the currently active window */
+ 
+ static const Layout layouts[] = {
+@@ -51,7 +51,7 @@ static const Layout layouts[] = {
+ };
+ 
+ /* key definitions */
+-#define MODKEY Mod1Mask
++#define MODKEY Mod4Mask
+ #define TAGKEYS(KEY,TAG) \
+ 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
+ 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
+@@ -63,14 +63,16 @@ static const Layout layouts[] = {
+ 
+ /* commands */
+ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
+-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+-static const char *termcmd[]  = { "st", NULL };
++static const char *dmenucmd[] = { "dmenu_run", NULL };
++static const char *dmenudesktopcmd[] = { "j4-dmenu-desktop", NULL };
++static const char *termcmd[]  = { "x-terminal-emulator", NULL };
+ 
+ #include "movestack.c"
+ static Key keys[] = {
+ 	/* modifier                     key        function        argument */
+-	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+-	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
++	{ MODKEY,                       XK_space,  spawn,          {.v = dmenudesktopcmd } },
++	{ MODKEY|ShiftMask,             XK_space,  spawn,          {.v = dmenucmd } },
++	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
+ 	{ MODKEY,                       XK_b,      togglebar,      {0} },
+ 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
+ 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
+@@ -80,14 +82,14 @@ static Key keys[] = {
+ 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
+ 	{ MODKEY|ShiftMask,             XK_j,      movestack,      {.i = +1 } },
+ 	{ MODKEY|ShiftMask,             XK_k,      movestack,      {.i = -1 } },
+-	{ MODKEY,                       XK_Return, zoom,           {0} },
++	{ MODKEY|ShiftMask,             XK_Return, zoom,           {0} },
+ 	{ MODKEY,                       XK_Tab,    view,           {0} },
+-	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
++	{ MODKEY,                       XK_w,      killclient,     {0} },
+ 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
+ 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
+ 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
+-	{ MODKEY,                       XK_space,  setlayout,      {0} },
+-	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
++	{ MODKEY,                       XK_p,      setlayout,      {0} },
++	{ MODKEY|ShiftMask,             XK_p,      togglefloating, {0} },
+ 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
+ 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
+ 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
+@@ -107,7 +109,7 @@ static Key keys[] = {
+ 	TAGKEYS(                        XK_8,                      7)
+ 	TAGKEYS(                        XK_9,                      8)
+ 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+-	{ MODKEY|ControlMask|ShiftMask, XK_q,      quit,           {1} },
++	{ MODKEY|ShiftMask,             XK_r,      quit,           {1} },
+ };
+ 
+ /* button definitions */
+diff --git a/dwm.c b/dwm.c
+index 88a7613..9b24084 100644
+--- a/dwm.c
++++ b/dwm.c
+@@ -295,13 +295,11 @@ static void (*handler[LASTEvent]) (XEvent *) = {
+ 	[ConfigureRequest] = configurerequest,
+ 	[ConfigureNotify] = configurenotify,
+ 	[DestroyNotify] = destroynotify,
+-	[EnterNotify] = enternotify,
+ 	[Expose] = expose,
+ 	[FocusIn] = focusin,
+ 	[KeyPress] = keypress,
+ 	[MappingNotify] = mappingnotify,
+ 	[MapRequest] = maprequest,
+-	[MotionNotify] = motionnotify,
+ 	[PropertyNotify] = propertynotify,
+ 	[ResizeRequest] = resizerequest,
+ 	[UnmapNotify] = unmapnotify
+-- 
+2.17.1
+

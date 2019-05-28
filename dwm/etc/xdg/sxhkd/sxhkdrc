@@ -1,0 +1,56 @@
+super + Escape
+	pkill -USR1 -x sxhkd; \
+	notify-send "sxhkd restarted"
+
+{_, ctrl +} Print
+	name="$(date +%s).png"; \
+	file="~/var/screenshots/$name"; \
+	maim {_,-s} $file; \
+	xclip -selection clipboard -t image/png; < $file; \
+	notify-send "Screenshot Taken" "Screenshot $name saved to clipboard"
+
+XF86MonBrightness{Down,Up}
+	brightnessctl s 5%{-,+}
+
+super + space
+	j4-dmenu-desktop
+
+super + shift + space
+	dmenu_run
+
+super + Return
+	st
+
+# dwm
+super + {k,j}
+	dwmc focusstack {-,+}1
+
+super + shift + {k,j}
+	dwmc movestack {-,+}1
+
+super + {h,l}
+	dwmc setmfact {-,+}0.05
+
+super + b
+	dwmc togglebar
+
+super + shift + p
+	dwmc togglefloating
+
+super + w
+	dwmc killclient
+
+super + shift + {q,r}
+	dwmc quit {0,1}
+
+super + Tab
+	dwmc view
+
+super + {t,f,m}
+	dwmc setlayoutex {0,1,2}
+
+super + {_,ctrl +}{_,shift +} {1-9}
+	dwmc {_,toggle}{viewex,tagex} {0-8}
+
+super + 0
+	dwmc viewall

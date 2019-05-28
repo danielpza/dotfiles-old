@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=FFF
+GenericName=File Manager
+Comment=fff (File Manager)
+Exec=st -c "fff" fff
+Categories=System;FileTools;FileManager
+MimeType=inode/directory;
+Icon=utilities-terminal

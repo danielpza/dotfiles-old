@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+transfers=$(mega-transfers)
+amount=$(
+	(
+		wc -l <<EOF
+$transfers
+EOF
+	)
+)
+perc=$(
+	(
+		sed -n 2p <<EOF
+$transfers
+EOF
+	) | tr -s ' ' | cut -d ' ' -f 5
+)
+
+echo $(($amount - 1)) $perc

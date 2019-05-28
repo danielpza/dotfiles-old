@@ -1,0 +1,15 @@
+;;;;
+; npm userconfig file
+; this is a simple ini-formatted file
+; lines that start with semi-colons are comments.
+; read `npm help config` for help on the various options
+;;;;
+
+cache=~/var/npm-cache
+store=~/var/pnpm
+prefix=~/var/npm
+init-author-name=Daniel Perez Alvarez
+init-author-email=danielpza@protonmail.com
+init-author-url=https://github.com/danielpza
+init-version=0.1.0
+init-license=MIT

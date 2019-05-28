@@ -1,0 +1,128 @@
+From d4f1a91d4a240adf8ee51416a9d133edde7d0087 Mon Sep 17 00:00:00 2001
+From: Daniel Perez Alvarez <danielpza@protonmail.com>
+Date: Sun, 9 Jun 2019 20:49:44 -0400
+Subject: [PATCH 1/9] base
+
+---
+ .editorconfig  |  8 ++++++++
+ .gitignore     |  6 ++++++
+ Makefile       | 21 +++++++++++++++++----
+ debian-control |  9 +++++++++
+ dwm.desktop    |  8 ++++++++
+ 5 files changed, 48 insertions(+), 4 deletions(-)
+ create mode 100644 .editorconfig
+ create mode 100644 .gitignore
+ create mode 100644 debian-control
+ create mode 100644 dwm.desktop
+
+diff --git a/.editorconfig b/.editorconfig
+new file mode 100644
+index 0000000..a1d48ab
+--- /dev/null
++++ b/.editorconfig
+@@ -0,0 +1,8 @@
++root = true
++
++[*]
++insert_final_newline = true
++end_of_line = lf
++charset = utf-8
++indent_style = tab
++trim_trailing_whitespace = true
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..708fd78
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,6 @@
++config.h
++drw.o
++dwm
++dwm-6.2.deb
++dwm.o
++util.o
+diff --git a/Makefile b/Makefile
+index 77bcbc0..21250ce 100644
+--- a/Makefile
++++ b/Makefile
+@@ -19,14 +19,14 @@ options:
+ 
+ ${OBJ}: config.h config.mk
+ 
+-config.h:
++config.h: config.def.h
+ 	cp config.def.h $@
+ 
+ dwm: ${OBJ}
+ 	${CC} -o $@ ${OBJ} ${LDFLAGS}
+ 
+ clean:
+-	rm -f dwm ${OBJ} dwm-${VERSION}.tar.gz
++	rm -f dwm ${OBJ} dwm-${VERSION}.tar.gz dwm-${VERSION}.deb
+ 
+ dist: clean
+ 	mkdir -p dwm-${VERSION}
+@@ -36,6 +36,13 @@ dist: clean
+ 	gzip dwm-${VERSION}.tar
+ 	rm -rf dwm-${VERSION}
+ 
++dist-deb: DESTDIR=dwm-${VERSION}
++dist-deb: install
++	mkdir dwm-${VERSION}/DEBIAN
++	sed "s/VERSION/${VERSION}/g" < debian-control > dwm-${VERSION}/DEBIAN/control
++	dpkg-deb --build dwm-${VERSION}
++	rm -rf dwm-${VERSION}
++
+ install: all
+ 	mkdir -p ${DESTDIR}${PREFIX}/bin
+ 	cp -f dwm ${DESTDIR}${PREFIX}/bin
+@@ -43,9 +50,15 @@ install: all
+ 	mkdir -p ${DESTDIR}${MANPREFIX}/man1
+ 	sed "s/VERSION/${VERSION}/g" < dwm.1 > ${DESTDIR}${MANPREFIX}/man1/dwm.1
+ 	chmod 644 ${DESTDIR}${MANPREFIX}/man1/dwm.1
++	mkdir -p ${DESTDIR}${PREFIX}/share/xsessions
++	cp dwm.desktop ${DESTDIR}${PREFIX}/share/xsessions
++	mkdir -p ${DESTDIR}${PREFIX}/pixmaps
++	cp dwm.png ${DESTDIR}${PREFIX}/pixmaps
+ 
+ uninstall:
+ 	rm -f ${DESTDIR}${PREFIX}/bin/dwm\
+-		${DESTDIR}${MANPREFIX}/man1/dwm.1
++		${DESTDIR}${MANPREFIX}/man1/dwm.1\
++		${DESTDIR}${PREFIX}/share/xsessions/dwm.desktop\
++		${DESTDIR}${PREFIX}/pixmaps/dwm.png
+ 
+-.PHONY: all options clean dist install uninstall
++.PHONY: all options clean dist install uninstall dist-deb
+diff --git a/debian-control b/debian-control
+new file mode 100644
+index 0000000..2d1c221
+--- /dev/null
++++ b/debian-control
+@@ -0,0 +1,9 @@
++Package: dwm
++Version: VERSION
++Section: base
++Priority: optional
++Architecture: amd64
++Depends:
++Maintainer: Daniel Perez Alvarez <danielpza@protonmail.com>
++Description: dwm Fork
++ dwm with some patches
+diff --git a/dwm.desktop b/dwm.desktop
+new file mode 100644
+index 0000000..f193367
+--- /dev/null
++++ b/dwm.desktop
+@@ -0,0 +1,8 @@
++[Desktop Entry]
++Name=dwm
++Comment=Suckless dwm
++TryExec=dwm
++Exec=dwm
++Type=Application
++Icon=/usr/share/pixmaps/dwm.png
++Keywords=Window manager
+-- 
+2.17.1
+

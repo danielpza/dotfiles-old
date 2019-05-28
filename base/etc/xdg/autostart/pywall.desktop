@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Exec=wal -R
+Name=Wall Restore

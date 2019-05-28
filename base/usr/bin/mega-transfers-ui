@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+menu() {
+	rows=$(stty size | cut -d' ' -f1)
+	cols=$(stty size | cut -d' ' -f2)
+	SIZE="$((rows - 5)) $((cols - 10))"
+	itemsraw=$(mega-transfers | tail -n +2)
+	items=()
+	ret=()
+	i=0
+	while read -r item; do
+		el=("$item" "$( (tr -s ' ' | cut -d ' ' -f3-) <<<$item)")
+		ret+=($item)
+		items+=("${el[@]}")
+		let i++
+	done <<<$itemsraw
+	whiptail --notags --menu "Mega Transfers" $SIZE 10 "${items[@]}" 3>&1 1>&2 2>&3
+}
+
+main() {
+	while :; do
+		result=$(menu)
+		case $result in
+		"")
+			break
+			;;
+		*)
+			tag=$( (tr -s ' ' | cut -d ' ' -f2) <<<$result)
+			arr=($result)
+			state="${arr[-1]}"
+			if [ $state == "PAUSED" ]; then
+				mega-transfers -r $tag
+			else
+				mega-transfers -p $tag
+			fi
+			;;
+		esac
+	done
+}
+
+main
