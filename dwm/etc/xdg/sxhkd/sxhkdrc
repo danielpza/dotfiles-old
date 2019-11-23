@@ -54,3 +54,6 @@ super + {_,ctrl +}{_,shift +} {1-9}
 
 super + 0
 	dwmc viewall
+
+super + {minus,plus}
+	dwmc setgaps {-,+}1

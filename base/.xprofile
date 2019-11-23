@@ -1,3 +1,5 @@
 #!/bin/sh
 
+[ -f "$HOME/.fehbg" ] "$HOME/.fehgb"
+
 dex -a &

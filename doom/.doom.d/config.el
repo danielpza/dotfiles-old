@@ -38,6 +38,7 @@
       :desc "Find file in project" "pf"    #'+ivy/projectile-find-file
       :desc "M-x"                  "SPC"   #'execute-extended-command
       :desc "Sort Lines"           "cl"    #'sort-lines
+      :desc "Revert buffer"        "br"  #'revert-buffer
       :desc "Quickrun interactive" "cE"    #'quickrun-shell
       :desc "Next Error"           "en"    #'flycheck-next-error
       :desc "Previous Error"       "ep"    #'flycheck-previous-error
