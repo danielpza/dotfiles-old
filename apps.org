@@ -1,0 +1,514 @@
+* Linux
+** Apps
+*** Downloaders
+- [[https://github.com/persepolisdm/persepolis][persepolisdm/persepolis]] Persepolis Download Manager is a GUI for aria2.
+- [[https://github.com/meganz/MEGAcmd][meganz/MEGAcmd]] Command Line Interactive and Scriptable Application to access MEGA
+- [[https://github.com/aria2/aria2][aria2/aria2]] aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.
+*** File Managers
+- [[https://github.com/dylanaraps/fff][dylanaraps/fff]] 📁 A simple file manager written in bash.
+- [[https://github.com/jarun/nnn][jarun/nnn]] :dolphin: The missing terminal file manager for X.
+- [[https://github.com/buffet/filet][buffet/filet]] A fucking fucking fast file fucker
+- [[https://github.com/sharkdp/fd][sharkdp/fd]] A simple, fast and user-friendly alternative to 'find'
+- [[https://github.com/ranger/ranger][ranger/ranger]] A VIM-inspired filemanager for the console
+- [[https://github.com/gokcehan/lf][gokcehan/lf]] Terminal file manager
+*** Image
+- [[https://github.com/muennich/sxiv][muennich/sxiv]] Simple X Image Viewer
+- [[https://github.com/karlch/vimiv][karlch/vimiv]] An image viewer with vim-like keybindings.
+*** Music Players
+- [[https://github.com/nicklan/pnmixer][nicklan/pnmixer]] Volume mixer for the system tray
+- [[https://github.com/cmus/cmus][cmus/cmus]] Small, fast and powerful console music player for Unix-like operating systems.
+
+** Utilities
+- [[https://github.com/nvbn/thefuck][nvbn/thefuck]] Magnificent app which corrects your previous console command.
+- [[https://github.com/sharkdp/pastel][sharkdp/pastel]] A command-line tool to generate, analyze, convert and manipulate colors
+- [[https://github.com/sharkdp/bat][sharkdp/bat]] A cat(1) clone with wings.
+- [[https://github.com/eradman/entr][eradman/entr]] A utility for running arbitrary commands when files change
+- [[https://github.com/tmux/tmux][tmux/tmux]] tmux source code
+** Dotfiles / Ricing
+- [[https://github.com/TheLocehiliosan/yadm][TheLocehiliosan/yadm]] Yet Another Dotfiles Manager
+- [[https://github.com/mitchweaver/suckless][mitchweaver/suckless]] Collection of http://suckless.org tools I use and my modifications for them.
+- [[https://github.com/mitchweaver/dots][mitchweaver/dots]] ⚫ ⚫ ⚫
+- [[https://github.com/zSucrilhos/dotfiles][zSucrilhos/dotfiles]] My dotfiles for i3-gaps/bspwm
+- [[https://github.com/worron/awesome-config][worron/awesome-config]] Awesome WM config
+- [[https://github.com/arcticicestudio/snowsaw][arcticicestudio/snowsaw]] A lightweight, plugin-driven and dynamic dotfiles bootstrapper.
+- [[https://github.com/addy-dclxvi/almighty-dotfiles][addy-dclxvi/almighty-dotfiles]] A dump repository of my dotfiles since the first time I learned ricing. So everything is really messy here.
+- [[https://github.com/LukeSmithxyz/LARBS][LukeSmithxyz/LARBS]] Luke's Auto-Rice Bootstrapping Scripts: Installation Scripts for My Arch Linux Meta-Distribution
+- [[https://github.com/LukeSmithxyz/voidrice][LukeSmithxyz/voidrice]] My dotfiles (deployed by LARBS)
+- [[https://github.com/JLErvin/dotfiles][JLErvin/dotfiles]] Configuration files for arch linux and macOS
+- [[https://github.com/sdushantha/dotfiles][sdushantha/dotfiles]] 🍚 My dotfiles for Manjaro Linux
+- [[https://github.com/windelicato/dotfiles][windelicato/dotfiles]] arch linux configuration files
+- [[https://github.com/luisenrike/dotfiles][luisenrike/dotfiles]]
+- [[https://github.com/LukeSmithxyz/dwm][LukeSmithxyz/dwm]] Luke's build of dwm
+- [[https://github.com/gnotclub/xst][gnotclub/xst]] st fork that uses Xresources and some pretty good patches
+- [[https://github.com/adi1090x/polybar-themes][adi1090x/polybar-themes]] A collection of polybar themes/configs with different styles, colors and variants
+- [[https://github.com/earvingad/configfiles][earvingad/configfiles]] Personal config files for Bspwm and i3
+** Window Managers
+- [[https://github.com/tudurom/windowchef][tudurom/windowchef]] Window Chef is a stacking window manager that cooks windows with orders from the Waitron
+- [[https://github.com/michaelforney/velox][michaelforney/velox]] velox window manager
+- [[https://github.com/palopezv/dwm-gnome][palopezv/dwm-gnome]] Suckless Dwm integration with GNOME session management. Butchered from <https://github.com/TheMarex/i3-gnome>. Tracking upstream at <https://github.com/lvillani/i3-gnome>.
+- [[https://github.com/leftwm/leftwm][leftwm/leftwm]] LeftWM - A tiling window manager for Adventurers
+- [[https://github.com/giuspen/x-tile][giuspen/x-tile]] X Tile
+- [[https://github.com/mackstann/tinywm][mackstann/tinywm]] The tiniest window manager.
+- [[https://github.com/sulami/FrankenWM][sulami/FrankenWM]] Fast dynamic tiling window manager
+- [[https://github.com/dylanaraps/sowm][dylanaraps/sowm]] An itsy bitsy floating window manager (220~ sloc / 24kb compiled!).
+- [[https://github.com/wmutils/core][wmutils/core]] Set of window manipulation tools
+- [[https://github.com/JLErvin/berry][JLErvin/berry]] :strawberry: A healthy, byte-sized window manager written over the XLib Library
+- [[https://github.com/Airblader/i3][Airblader/i3]] i3-gaps – i3 with more features (forked from https://github.com/i3/i3)
+- [[https://github.com/baskerville/bspwm][baskerville/bspwm]] A tiling window manager based on binary space partitioning
+- [[https://github.com/herbstluftwm/herbstluftwm][herbstluftwm/herbstluftwm]] A manual tiling window manager for X11
+- [[https://github.com/jayk/window_grid][jayk/window_grid]] Tools for adding grid/tiling functionality to any window manager.
+** Window Managers Utilities
+- [[https://github.com/naelstrof/maim][naelstrof/maim]] maim (make image) takes screenshots of your desktop. It has options to take only a region, and relies on slop to query for regions. maim is supposed to be an improved scrot.
+- [[https://github.com/naelstrof/slop][naelstrof/slop]] slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.
+- [[https://github.com/lupoDharkael/flameshot][lupoDharkael/flameshot]] Powerful yet simple to use screenshot software
+- [[https://github.com/enkore/j4-dmenu-desktop][enkore/j4-dmenu-desktop]] A fast desktop menu
+- [[https://github.com/polybar/polybar][polybar/polybar]] A fast and easy-to-use status bar
+- [[https://github.com/jceb/dex][jceb/dex]] DesktopEntry Execution
+- [[https://github.com/florentc/xob][florentc/xob]] A lightweight overlay volume (or anything) bar for the X Window System.
+- [[https://github.com/dunst-project/dunst][dunst-project/dunst]] Lightweight and customizable notification daemon
+- [[https://github.com/baskerville/sxhkd][baskerville/sxhkd]] Simple X hotkey daemon
+- [[https://github.com/johanmalm/jgmenu][johanmalm/jgmenu]] A simple X11 menu
+- [[https://github.com/davatorium/rofi][davatorium/rofi]] Rofi: A window switcher, application launcher and dmenu replacement
+- [[https://github.com/nwg-piotr/azote][nwg-piotr/azote]] Wallpaper and colour manager for Sway, i3 and some other WMs
+- [[https://github.com/fdw/rofimoji][fdw/rofimoji]] A simple emoji picker for rofi 😁
+- [[https://github.com/taffybar/taffybar][taffybar/taffybar]] A gtk based status bar for tiling window managers such as XMonad
+- [[https://github.com/fennerm/flashfocus][fennerm/flashfocus]] Simple focus animations for tiling window managers.
+- [[https://github.com/dylanaraps/pywal][dylanaraps/pywal]] 🎨 Generate and change color-schemes on the fly.
+- [[https://github.com/themix-project/oomox][themix-project/oomox]] Graphical application for generating different color variations of a  Arc, Materia and Oomox themes (GTK2, GTK3 and others), Archdroid, Gnome-Colors, Numix, Papirus, Suru++ icons, and terminal palette.
+- [[https://github.com/robm/dzen][robm/dzen]] Dzen is a general purpose messaging, notification and menuing program for X11.
+- [[https://github.com/brndnmtthws/conky][brndnmtthws/conky]] Light-weight system monitor for X.
+- [[https://github.com/coldfix/udiskie][coldfix/udiskie]] Automounter for removable media
+- [[https://github.com/wmutils/contrib][wmutils/contrib]] Useful bits and pieces
+- [[https://github.com/carnager/teiler][carnager/teiler]] Little script for screenshots and screencasts utilizing rofi, maim, ffmpeg
+- [[https://github.com/noctuid/tdrop][noctuid/tdrop]] A Glorified WM-Independent Dropdown Creator
+** Docs
+- [[https://github.com/dylanaraps/writing-a-tui-in-bash][dylanaraps/writing-a-tui-in-bash]] How to write a TUI in BASH
+- [[https://github.com/jlevy/the-art-of-command-line][jlevy/the-art-of-command-line]] Master the command line, in one page
+- [[https://github.com/aleksandar-todorovic/awesome-linux][aleksandar-todorovic/awesome-linux]] :penguin: A list of awesome projects and resources that make Linux even more awesome. :penguin:
+- [[https://github.com/alebcay/awesome-shell][alebcay/awesome-shell]] A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
+- [[https://github.com/islinuxabout/islinuxabout.github.io][islinuxabout/islinuxabout.github.io]] Linux is a kernel
+** Others
+- [[https://github.com/StaticRocket/linux-wallpapers][StaticRocket/linux-wallpapers]] The files and exports associated with my work.
+- [[https://github.com/cylgom/ly][cylgom/ly]] TUI (ncurses-like) display manager
+- [[https://github.com/arsv/minibase][arsv/minibase]] small static userspace tools for Linux
+- [[https://github.com/jordansissel/xdotool][jordansissel/xdotool]] fake keyboard/mouse input, window management, and more
+- [[https://github.com/elogind/elogind][elogind/elogind]] The systemd project's "logind", extracted to a standalone package
+- [[https://github.com/vivien/i3blocks][vivien/i3blocks]] A feed generator for text based status bars
+- [[https://github.com/micha/resty][micha/resty]] Little command line REST client that you can use in pipelines (bash or zsh).
+- [[https://github.com/Crestwave/shmenu][Crestwave/shmenu]] A dynamic menu for the terminal written in pure Bash
+- [[https://github.com/dylanaraps/promptless][dylanaraps/promptless]] 🚀 A super fast and extremely minimal shell prompt.
+- [[https://github.com/MatMoul/archfi][MatMoul/archfi]] Arch Linux Fast Installer : tutorial installer
+- [[https://github.com/mitchweaver/bin][mitchweaver/bin]] 🗑️ helpful scripts
+- [[https://github.com/sdushantha/kunst][sdushantha/kunst]] 🖼️ Download and display album art or display embedded album art
+- [[https://github.com/github/hub][github/hub]] A command-line tool that makes git easier to use with GitHub.
+- [[https://github.com/sqshq/sampler][sqshq/sampler]] A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.
+- [[https://github.com/erroneousboat/slack-term][erroneousboat/slack-term]] Slack client for your terminal
+- [[https://github.com/rockymadden/slack-cli][rockymadden/slack-cli]] :neckbeard: Powerful Slack CLI via pure bash. Rich messaging, uploads, posts, piping, oh my!
+* Editors
+- [[https://github.com/onivim/oni2][onivim/oni2]] Native, lightweight modal code editor
+- [[https://github.com/VSCodium/vscodium][VSCodium/vscodium]] binary releases of VS Code without MS branding/telemetry/licensing
+* LSP (language Server Plugins)
+- [[https://github.com/EmmyLua/EmmyLua-LanguageServer][EmmyLua/EmmyLua-LanguageServer]]
+* Vim
+- [[https://github.com/SpaceVim/SpaceVim][SpaceVim/SpaceVim]] A community-driven modular vim distribution - The ultimate vim configuration
+- [[https://github.com/liuchengxu/space-vim][liuchengxu/space-vim]] :four_leaf_clover: Lean & mean spacemacs-ish Vim distribution
+* Game Mods
+- [[https://github.com/squeek502/Better-Console][squeek502/Better-Console]] Don't Starve mod: Better Console
+- [[https://github.com/phate09/ToDoChores][phate09/ToDoChores]] a mod for the game Don't Starve Together
+- [[https://github.com/paulgibbs/DJPaul-Sort-Inventory][paulgibbs/DJPaul-Sort-Inventory]] DJPaul's Inventory Sorting for Don't Starve Together
+- [[https://github.com/ModOrganizer2/modorganizer][ModOrganizer2/modorganizer]] Mod manager for various PC games. Discord Server: https://discord.gg/cYwdcxj if you would like to be more involved
+* Docs
+- [[https://github.com/maguowei/starred][maguowei/starred]] creating your own Awesome List by GitHub stars!
+- [[https://github.com/luong-komorebi/Awesome-Linux-Software][luong-komorebi/Awesome-Linux-Software]] A list of awesome applications, software, tools and other materials for Linux distros.
+- [[https://github.com/tldr-pages/tldr][tldr-pages/tldr]] 📚 Simplified and community-driven man pages
+- [[https://github.com/Kapeli/Dash-User-Contributions][Kapeli/Dash-User-Contributions]] Dash repo of user contributed docsets
+- [[https://github.com/WikiTeam/wikiteam][WikiTeam/wikiteam]] Tools for downloading and preserving wikis
+- [[https://github.com/freeCodeCamp/devdocs][freeCodeCamp/devdocs]] API Documentation Browser
+- [[https://github.com/github/explore][github/explore]] Community-curated topic and collection pages on GitHub
+- [[https://github.com/troxler/awesome-css-frameworks][troxler/awesome-css-frameworks]] List of awesome CSS frameworks
+- [[https://github.com/conventional-commits/conventionalcommits.org][conventional-commits/conventionalcommits.org]] The conventional commits specification
+- [[https://github.com/mayfrost/guides][mayfrost/guides]] Looking for a guide? You came to the right place. Here you can find documentation for a variety of topics I research to make complex computing easier. For comments go to the IRC channel #nfo at the Rizon network.
+- [[https://github.com/emacs-tw/awesome-emacs][emacs-tw/awesome-emacs]] A community driven list of useful Emacs packages, libraries and others.
+- [[https://github.com/rollup/awesome][rollup/awesome]] ⚡️ Delightful Rollup Plugins, Packages, and Resources
+- [[https://github.com/myshov/awesome-mobile-web-development][myshov/awesome-mobile-web-development]]  All that you need to create a great mobile web experience
+- [[https://github.com/sdras/awesome-actions][sdras/awesome-actions]] A curated list of awesome actions to use on GitHub
+- [[https://github.com/ellerbrock/awesome-koa][ellerbrock/awesome-koa]] :dancers: Awesome Koa.js Web Framework
+- [[https://github.com/sindresorhus/awesome-tap][sindresorhus/awesome-tap]] Useful resources for the Test Anything Protocol
+- [[https://github.com/estree/estree][estree/estree]] The ESTree Spec
+- [[https://github.com/k88hudson/git-flight-rules][k88hudson/git-flight-rules]] Flight rules for git
+- [[https://github.com/ossu/computer-science][ossu/computer-science]] :mortar_board: Path to a free self-taught education in Computer Science!
+- [[https://github.com/HubSpot/youmightnotneedjquery][HubSpot/youmightnotneedjquery]]
+- [[https://github.com/webpack-contrib/awesome-webpack][webpack-contrib/awesome-webpack]] A curated list of awesome Webpack resources, libraries and tools
+- [[https://github.com/KeenRivals/bestmotherfucking.website][KeenRivals/bestmotherfucking.website]] The Best Motherfucking Website
+- [[https://github.com/Igglybuff/awesome-piracy][Igglybuff/awesome-piracy]] A curated list of awesome warez and piracy links
+* Accounting
+- [[https://github.com/egh/ledger-autosync][egh/ledger-autosync]] Synchronize your ledger-cli files with your bank.
+- [[https://github.com/ledger/ledger][ledger/ledger]] Double-entry accounting system with a command-line reporting interface
+- [[https://github.com/simonmichael/hledger][simonmichael/hledger]] Robust command-line/curses/web plaintext accounting tools, a Haskell rewrite of Ledger.
+* Browser
+- [[https://github.com/JasonBarnabe/greasyfork][JasonBarnabe/greasyfork]] An online repository of user scripts.
+- [[https://github.com/Timvde/UserChrome-Tweaks][Timvde/UserChrome-Tweaks]] A community maintained repository of userChrome.css tweaks for Firefox
+* Games
+- [[https://github.com/SFTtech/openage][SFTtech/openage]] Free (as in freedom) open source clone of the Age of Empires II engine :rocket:
+- [[https://github.com/crawl/crawl][crawl/crawl]] Dungeon Crawl: Stone Soup official repository
+- [[https://github.com/jakowskidev/uMario_Jakowski][jakowskidev/uMario_Jakowski]] uMario C++/SDL2 Game by Łykasz Jakowski
+* C/C++ Tools
+- [[https://github.com/MaskRay/ccls][MaskRay/ccls]] C/C++/ObjC language server supporting cross references, hierarchies, completion and semantic highlighting
+- [[https://github.com/cquery-project/cquery][cquery-project/cquery]] C/C++ language server supporting multi-million line code base, powered by libclang. Emacs, Vim, VSCode, and others with language server protocol support. Cross references, completion, diagnostics, semantic highlighting and more
+- [[https://github.com/nickdiego/compiledb][nickdiego/compiledb]] Tool for generating Clang's JSON Compilation Database files for make-based build systems.
+* Css Frameworks
+- [[https://github.com/milligram/milligram][milligram/milligram]] A minimalist CSS framework.
+* Websites Alternatives
+- [[https://github.com/go-gitea/gitea][go-gitea/gitea]] Git with a cup of tea, painless self-hosted git service
+- [[https://github.com/dessalines/lemmy][dessalines/lemmy]] Building a federated alternative to reddit in rust
+* New
+** Python
+- [[https://github.com/asciinema/asciinema][asciinema/asciinema]] Terminal session recorder 📹
+- [[https://github.com/joeyespo/grip][joeyespo/grip]] Preview GitHub Markdown files like Readme locally before committing them.
+** C
+- [[https://github.com/pbatard/rufus][pbatard/rufus]] The Reliable USB Formatting Utility
+** C++
+- [[https://github.com/SerenityOS/serenity][SerenityOS/serenity]] Serenity Operating System
+- [[https://github.com/oguzhaninan/Stacer][oguzhaninan/Stacer]] Linux System Optimizer and Monitoring - https://oguzhaninan.github.io/Stacer-Web
+- [[https://github.com/Skycoder42/keepassxc-client-library][Skycoder42/keepassxc-client-library]] A C++ library to access the browser-plugin-API of KeePassXC to retrieve or create entries.
+- [[https://github.com/yue/yue][yue/yue]] A library for creating native cross-platform GUI apps
+- [[https://github.com/romgrk/node-gtk][romgrk/node-gtk]] GNOME Gtk+ bindings for NodeJS
+- [[https://github.com/libSDL2pp/libSDL2pp][libSDL2pp/libSDL2pp]] C++11 bindings/wrapper for SDL2
+- [[https://github.com/libSDL2pp/libSDL2pp-tutorial][libSDL2pp/libSDL2pp-tutorial]] Tutorial for libSDL2pp, C++11 bindings/wrapper for SDL2
+
+** Shell
+- [[https://github.com/ProtonVPN/protonvpn-cli][ProtonVPN/protonvpn-cli]] protonvpn-cli: ProtonVPN Command-Line Tool for Linux and macOS.
+- [[https://github.com/void-linux/void-packages][void-linux/void-packages]] The Void source packages collection
+
+** Uncategorized
+- [[https://github.com/linuxcsuf/linuxcsuf][linuxcsuf/linuxcsuf]] CSUF Linux User Group
+- [[https://github.com/TypeScriptToLua/lua-types][TypeScriptToLua/lua-types]] TypeScript definitions for Lua standard library.
+- [[https://github.com/npms-io/npms][npms-io/npms]] Meta repository for centralized issues
+- [[https://github.com/chriskempson/base16][chriskempson/base16]] An architecture for building themes
+- [[https://github.com/megous/megatools][megous/megatools]] Open-source command line tools for accessing Mega.co.nz cloud storage.
+
+** Go
+- [[https://github.com/nektos/act][nektos/act]] Run your GitHub Actions locally
+- [[https://github.com/elazarl/goproxy][elazarl/goproxy]] An HTTP proxy library for Go
+
+** Emacs Lisp
+
+- [[https://github.com/cqql/xresources-theme][cqql/xresources-theme]] Use your .Xresources as your emacs theme
+- [[https://github.com/emacs-evil/evil][emacs-evil/evil]] The extensible vi layer for Emacs.
+- [[https://github.com/Wilfred/bison-mode][Wilfred/bison-mode]] Emacs major mode for Bison/Jison, Yacc and Lex grammars
+- [[https://github.com/Alexander-Miller/treemacs][Alexander-Miller/treemacs]]
+- [[https://github.com/syohex/emacs-quickrun][syohex/emacs-quickrun]] Run command quickly. This packages is inspired quickrun.vim
+- [[https://github.com/lassik/emacs-format-all-the-code][lassik/emacs-format-all-the-code]] Auto-format source code in many languages with one command
+- [[https://github.com/hlissner/doom-emacs][hlissner/doom-emacs]] An Emacs configuration for the stubborn martian vimmer
+- [[https://github.com/nicferrier/emacs-ejit][nicferrier/emacs-ejit]] Javascript compiler for EmacsLisp
+- [[https://github.com/jscheid/prettier.el][jscheid/prettier.el]] Prettier code formatting for Emacs.
+- [[https://github.com/emacs-lsp/lsp-ui][emacs-lsp/lsp-ui]]
+- [[https://github.com/emacs-lsp/dap-mode][emacs-lsp/dap-mode]] Emacs :heart: Debug Adapter Protocol
+- [[https://github.com/emacs-lsp/lsp-mode][emacs-lsp/lsp-mode]] Emacs client/library for the Language Server Protocol
+- [[https://github.com/joaotavora/eglot][joaotavora/eglot]] A client for Language Server Protocol servers
+- [[https://github.com/AdamNiederer/vue-mode][AdamNiederer/vue-mode]] Emacs major mode for vue.js
+- [[https://github.com/bbatsov/projectile][bbatsov/projectile]] Project Interaction Library for Emacs
+- [[https://github.com/jaypei/emacs-neotree][jaypei/emacs-neotree]] A emacs tree plugin like NerdTree for Vim.
+- [[https://github.com/jwiegley/use-package][jwiegley/use-package]] A use-package declaration for simplifying your .emacs
+- [[https://github.com/prettier/prettier-emacs][prettier/prettier-emacs]] Minor mode to format JS code on file save
+- [[https://github.com/codesuki/eslint-fix][codesuki/eslint-fix]] Fix current file using ESLint --fix
+- [[https://github.com/NicolasPetton/Indium][NicolasPetton/Indium]] A JavaScript development environment for Emacs
+- [[https://github.com/vermiculus/magithub][vermiculus/magithub]] **This project is being (mostly) migrated into Forge!** -- Magit-based interfaces to GitHub
+- [[https://github.com/skeeto/impatient-mode][skeeto/impatient-mode]] Impatient html mode. See your changes in the browser as you type
+- [[https://github.com/magit/magit][magit/magit]] It's Magit! A Git porcelain inside Emacs.
+- [[https://github.com/syl20bnr/spacemacs][syl20bnr/spacemacs]] A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!
+
+** Lua
+- [[https://github.com/prettier/plugin-lua][prettier/plugin-lua]] Prettier Lua Plugin (WIP)
+- [[https://github.com/trixnz/lua-fmt][trixnz/lua-fmt]] lua-fmt is pretty-printer for Lua code
+** Java
+- [[https://github.com/pvorb/npm-stat.com][pvorb/npm-stat.com]] download statistics for npm packages
+** WebAssembly
+- [[https://github.com/as2d/as2d][as2d/as2d]] Bring the power of the CanvasRenderingContext2D prototype to AssemblyScript
+** CSS
+- [[https://github.com/FirefoxUX/photon][FirefoxUX/photon]] Firefox’s Photon Design System.
+- [[https://github.com/adobe-fonts/source-code-pro][adobe-fonts/source-code-pro]] Monospaced font family for user interface and coding environments
+
+** HTML
+- [[https://github.com/all-contributors/all-contributors][all-contributors/all-contributors]] ✨ Recognize all contributors, not just the ones who push code ✨
+- [[https://github.com/simple-icons/simple-icons][simple-icons/simple-icons]] SVG icons for popular brands
+
+** TypeScript
+
+- [[https://github.com/egoist/bili][egoist/bili]] Bili makes it easier to bundle JavaScript libraries.
+- [[https://github.com/cacjs/cac][cacjs/cac]] Simple yet powerful framework for building command-line apps.
+- [[https://github.com/gcanti/newtype-ts][gcanti/newtype-ts]] Implementation of newtypes in TypeScript
+- [[https://github.com/xnimorz/use-debounce][xnimorz/use-debounce]] A debounce hook for react
+- [[https://github.com/streamich/react-use][streamich/react-use]] React Hooks — 👍
+- [[https://github.com/slorber/awesome-debounce-promise][slorber/awesome-debounce-promise]] Debounce your API calls easily and stay in promised land.
+- [[https://github.com/slorber/react-async-hook][slorber/react-async-hook]] React hook to handle any async operation in React components
+- [[https://github.com/urish/typewiz][urish/typewiz]] Automatically discover and add missing types in your TypeScript code
+- [[https://github.com/Cookie-AutoDelete/Cookie-AutoDelete][Cookie-AutoDelete/Cookie-AutoDelete]] Extension that deletes cookies as soon as the tab closes.
+- [[https://github.com/nonara/ts-patch][nonara/ts-patch]] Patch typescript to support custom transformers in tsconfig.json
+- [[https://github.com/simonhaenisch/rollup-plugin-typescript-paths][simonhaenisch/rollup-plugin-typescript-paths]] Rollup Plugin to automatically resolve path aliases set in the compilerOptions section of tsconfig.json.
+- [[https://github.com/JumpFm/jumpfm][JumpFm/jumpfm]] A file manager that lets you jump.
+- [[https://github.com/openzim/mwoffliner][openzim/mwoffliner]] Scrape any online Mediawiki motorised wiki (like Wikipedia) to your local filesystem
+- [[https://github.com/pnpm/pnpm][pnpm/pnpm]] 📦🚀 Fast, disk space efficient package manager
+- [[https://github.com/ksxnodemodules/typescript-tuple][ksxnodemodules/typescript-tuple]] Generics to work with tuples in TypeScript
+- [[https://github.com/sveltejs/sapper][sveltejs/sapper]] The next small thing in web development, powered by Svelte
+- [[https://github.com/UnwrittenFun/svelte-language-server][UnwrittenFun/svelte-language-server]] A WIP language server for Svelte
+- [[https://github.com/dsherret/ts-morph][dsherret/ts-morph]] TypeScript Compiler API wrapper for static analysis and programmatic code changes.
+- [[https://github.com/fuse-box/fuse-box][fuse-box/fuse-box]] A blazing fast js bundler/loader with a comprehensive API :fire:
+- [[https://github.com/cherow/cherow][cherow/cherow]] Very fast and lightweight, standards-compliant, self-hosted javascript parser with high focus on both performance and stability
+- [[https://github.com/buntis/buntis][buntis/buntis]] A 100% compliant, self-hosted typescript parser that emits an ESTree-compatible AST
+- [[https://github.com/meriyah/meriyah][meriyah/meriyah]] A 100% compliant, self-hosted javascript parser  - https://meriyah.github.io/meriyah
+- [[https://github.com/JamesHenry/typescript-estree][JamesHenry/typescript-estree]] :sparkles: A parser that converts TypeScript source code into an ESTree-compatible form
+- [[https://github.com/hazzard993/LuaToTypeScript][hazzard993/LuaToTypeScript]] Converts Lua code to TypeScript
+- [[https://github.com/microsoft/dts-gen][microsoft/dts-gen]] dts-gen creates starter TypeScript definition files for any module or library.
+- [[https://github.com/benjamn/ast-types][benjamn/ast-types]] Esprima-compatible implementation of the Mozilla JS Parser API
+- [[https://github.com/funkia/list][funkia/list]] 🐆 An immutable list with unmatched performance and a comprehensive functional API.
+- [[https://github.com/TrillCyborg/fullstack][TrillCyborg/fullstack]] React/ApolloGraphQL/Node/Mongo demo written in Typescript
+- [[https://github.com/danielpza/etecsa-cli][danielpza/etecsa-cli]] Cli for etecsa
+- [[https://github.com/kimamula/ts-transformer-keys][kimamula/ts-transformer-keys]] A TypeScript custom transformer which enables to obtain keys of given type
+- [[https://github.com/timocov/dts-bundle-generator][timocov/dts-bundle-generator]] Tool to generate a single bundle of dts
+- [[https://github.com/servall/app-config][servall/app-config]] Simple, strongly typed configuration loader for JavaScript and TypeScript
+- [[https://github.com/sammydre/ts-for-gjs][sammydre/ts-for-gjs]] TypeScript definition generator for GObject introspection interfaces, e.g. GTK
+- [[https://github.com/darkreader/darkreader][darkreader/darkreader]] Dark Reader Chrome and Firefox extension
+- [[https://github.com/LeDDGroup/scroll-utility][LeDDGroup/scroll-utility]] npm package for centering elements, smooth scroll animations, react to scroll events and accessing values related to the scroll
+- [[https://github.com/LeDDGroup/tsx-create-html-element][LeDDGroup/tsx-create-html-element]] Create html elements from tsx syntax
+- [[https://github.com/alsatian-test/alsatian][alsatian-test/alsatian]] TypeScript testing framework with test cases
+- [[https://github.com/wixplosives/sample-monorepo][wixplosives/sample-monorepo]] Sample monorepo setup with yarn workspaces, typescript, and lerna
+- [[https://github.com/LeDDGroup/typescript-transform-macros][LeDDGroup/typescript-transform-macros]] Typescript Transform Macros
+- [[https://github.com/codecov/example-typescript][codecov/example-typescript]] Example repo for uploading reports to Codecov https://codecov.io
+- [[https://github.com/badgen/badgen.net][badgen/badgen.net]] Fast svg badge generating service
+- [[https://github.com/HearTao/ts-creator][HearTao/ts-creator]] A code generator to generate TypeScript code generator from TypeScript code
+- [[https://github.com/LeDDGroup/typescript-transform-paths][LeDDGroup/typescript-transform-paths]] Transforms absolute imports to relative
+- [[https://github.com/mosjs/mos][mosjs/mos]] :pill: A pluggable module that injects content into your markdown files via hidden JavaScript snippets
+- [[https://github.com/benjamn/recast][benjamn/recast]] JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator
+- [[https://github.com/kucherenko/jscpd][kucherenko/jscpd]] Copy/paste detector for programming source code.
+- [[https://github.com/TypeScriptToLua/TypeScriptToLua][TypeScriptToLua/TypeScriptToLua]] Typescript to lua transpiler. https://typescripttolua.github.io/
+- [[https://github.com/cspotcode/personal-monorepo][cspotcode/personal-monorepo]]
+- [[https://github.com/microsoft/vscode][microsoft/vscode]] Visual Studio Code
+- [[https://github.com/sourcegraph/javascript-typescript-langserver][sourcegraph/javascript-typescript-langserver]] JavaScript and TypeScript code intelligence through the Language Server Protocol
+- [[https://github.com/andnp/SimplyTyped][andnp/SimplyTyped]] yet another Typescript type library for advanced types
+- [[https://github.com/LeDDGroup/brawljs][LeDDGroup/brawljs]] Fast paced multiplayer game made in javascript
+- [[https://github.com/labs42io/clean-code-typescript][labs42io/clean-code-typescript]] Clean Code concepts adapted for TypeScript
+- [[https://github.com/bencoveney/barrelsby][bencoveney/barrelsby]] Automatic TypeScript barrels (index.ts files) for your entire code base
+- [[https://github.com/OniVe/ts-transform-paths][OniVe/ts-transform-paths]] Load node modules according to tsconfig paths.
+- [[https://github.com/dividab/tsconfig-paths][dividab/tsconfig-paths]] Load node modules according to tsconfig paths, in run-time or via API.
+- [[https://github.com/AviVahl/ts-tools][AviVahl/ts-tools]] TypeScript Tools for Node.js
+- [[https://github.com/avensia-oss/ts-transform-hoist-objects-in-props][avensia-oss/ts-transform-hoist-objects-in-props]] A TypeScript custom transformer that hoists object literals that are passed to JSX props
+- [[https://github.com/phiresky/typed-socket.io][phiresky/typed-socket.io]] A library for fully typed client-server communication with socket.io and TypeScript.
+- [[https://github.com/transitive-bullshit/functional-typescript][transitive-bullshit/functional-typescript]] TypeScript standard for rock solid serverless functions.
+- [[https://github.com/grrowl/ts-transformer-imports][grrowl/ts-transformer-imports]] Transforms your TypeScript absolute imports to be relative
+- [[https://github.com/davidtheclark/cosmiconfig][davidtheclark/cosmiconfig]] Find and load configuration from a package.json property, rc file, or CommonJS module
+- [[https://github.com/styfle/packagephobia][styfle/packagephobia]] ⚖️ Find the cost of adding a new dependency to your project
+- [[https://github.com/fb55/htmlparser2][fb55/htmlparser2]] Forgiving html and xml parser
+- [[https://github.com/woutervh-/typescript-is][woutervh-/typescript-is]]
+- [[https://github.com/mrmlnc/fast-glob][mrmlnc/fast-glob]] :rocket: It's a very fast and efficient glob library for Node.js
+- [[https://github.com/danielpza/generator-typescript-project][danielpza/generator-typescript-project]] Yeoman typescript generator, includes jest, prettier and standard-version
+- [[https://github.com/danielpza/node-add-shebang][danielpza/node-add-shebang]] Adds node shebang to all your bin files declared in your package.json
+- [[https://github.com/TypeStrong/ts-node][TypeStrong/ts-node]] TypeScript execution and REPL for node.js
+- [[https://github.com/LeDDGroup/js-to-file][LeDDGroup/js-to-file]] Evaluate js and output result to file
+- [[https://github.com/acro5piano/typed-graphqlify][acro5piano/typed-graphqlify]] Build Typed GraphQL Queries in TypeScript. A better TypeScript + GraphQL experience.
+- [[https://github.com/LeDDGroup/typescript-transform-jsx][LeDDGroup/typescript-transform-jsx]] Typescript transform jsx to string
+- [[https://github.com/ajafff/tsutils][ajafff/tsutils]] utility functions for working with typescript's AST
+- [[https://github.com/cevek/ttypescript][cevek/ttypescript]] Over TypeScript tool to use custom transformers in the tsconfig.json
+- [[https://github.com/LeDDGroup/typescript-conditional-types][LeDDGroup/typescript-conditional-types]] Helpers for typescript generic types
+- [[https://github.com/gcanti/typelevel-ts][gcanti/typelevel-ts]] Type level programming in TypeScript
+- [[https://github.com/LeDDGroup/ts-types-utils][LeDDGroup/ts-types-utils]] Type utilities for typescript
+- [[https://github.com/ef-carbon/tspm][ef-carbon/tspm]] A TypeScript path (re-)mapper
+- [[https://github.com/mattstrom/typesafe-templates][mattstrom/typesafe-templates]] Template engine that leverages JSX to generate JavaScript code from TypeScript code files rather than text templates.
+- [[https://github.com/ueokande/vim-vixen][ueokande/vim-vixen]] Accelerates your web browsing with Vim power!!
+- [[https://github.com/LeDDGroup/password][LeDDGroup/password]] Manage your passwords
+- [[https://github.com/joonhocho/tscpaths][joonhocho/tscpaths]] Replace absolute paths to relative paths after typescript compilation
+- [[https://github.com/LeDDGroup/handle-data-change][LeDDGroup/handle-data-change]] Handle data change
+- [[https://github.com/microsoft/TypeScript][microsoft/TypeScript]] TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+- [[https://github.com/LeDDGroup/typescript-test-utils][LeDDGroup/typescript-test-utils]] Helper types for testing your package exported types
+- [[https://github.com/microsoft/dtslint][microsoft/dtslint]] A utility built on TSLint for linting TypeScript declaration (.d.ts) files.
+- [[https://github.com/ikatyang/generator-ts-jest][ikatyang/generator-ts-jest]] Quick generate TypeScript project, testing with Jest
+- [[https://github.com/kulshekhar/ts-jest][kulshekhar/ts-jest]] TypeScript preprocessor with sourcemap support for Jest
+- [[https://github.com/LeDDGroup/dynamic-on-change][LeDDGroup/dynamic-on-change]] An utility for managing on change functions.
+- [[https://github.com/LeDDGroup/uniform-react-components][LeDDGroup/uniform-react-components]] Components with the same simple interface to handle onChange events
+- [[https://github.com/marzelin/convert-tsconfig-paths-to-webpack-aliases][marzelin/convert-tsconfig-paths-to-webpack-aliases]] Utility package to convert typescript paths notation to webpack aliases.
+- [[https://github.com/piotrwitek/utility-types][piotrwitek/utility-types]] Collection of utility types, complementing TypeScript built-in mapped types and aliases (think "lodash" for static types).
+- [[https://github.com/wangtao0101/resa][wangtao0101/resa]] A simple framework based on redux, redux-saga, redux-action.
+- [[https://github.com/palantir/tslint][palantir/tslint]] :vertical_traffic_light: An extensible linter for the TypeScript language
+- [[https://github.com/denoland/deno][denoland/deno]] A secure JavaScript and TypeScript runtime
+- [[https://github.com/sb-js/socketio-react-chat][sb-js/socketio-react-chat]] Reference app for React + TypeScript + Node.js development
+- [[https://github.com/ds300/patch-package][ds300/patch-package]] Fix broken node modules instantly  🏃🏽‍♀️💨
+- [[https://github.com/onivim/oni][onivim/oni]] Oni: Modern Modal Editing - powered by Neovim
+- [[https://github.com/saadq/lynt][saadq/lynt]] ✨ A zero config JavaScript linter with support for Typescript, Flow, and React.
+- [[https://github.com/vvakame/typescript-formatter][vvakame/typescript-formatter]] Formatter of TypeScript code
+- [[https://github.com/VSCodeVim/Vim][VSCodeVim/Vim]] :star: Vim for Visual Studio Code
+- [[https://github.com/DefinitelyTyped/DefinitelyTyped][DefinitelyTyped/DefinitelyTyped]] The repository for high quality TypeScript type definitions.
+- [[https://github.com/nexe/nexe][nexe/nexe]] 🎉 create a single executable out of your node.js apps
+- [[https://github.com/jaysoo/todomvc-redux-react-typescript][jaysoo/todomvc-redux-react-typescript]] TodoMVC example using Redux, React, and Typescript
+
+** JavaScript
+- [[https://github.com/lassjs/lass][lassjs/lass]] :girl: Lass scaffolds a modern package boilerplate for Node.js
+- [[https://github.com/egoist/interpolate-html-plugin][egoist/interpolate-html-plugin]] Webpack plugin for interpolating custom variables into index.html
+- [[https://github.com/saojs/sao][saojs/sao]] ⚔ Futuristic scaffolding tool
+- [[https://github.com/typicode/json-server][typicode/json-server]] Get a full fake REST API with zero coding in less than 30 seconds (seriously)
+- [[https://github.com/daitangio/org-mode-parser][daitangio/org-mode-parser]] An org mode parser for nodejs
+- [[https://github.com/octokit/rest.js][octokit/rest.js]] GitHub REST API client for JavaScript
+- [[https://github.com/ChWick/gnomesome][ChWick/gnomesome]] Yet another gnome extension for window tiling inspired by awesome supporting multiple workspaces and screens.
+- [[https://github.com/jakoblind/webpack-autoconf][jakoblind/webpack-autoconf]] A tool to create frontend apps using webpack or Parcel
+- [[https://github.com/namics/webpack-config-plugins][namics/webpack-config-plugins]] Provide best practices for webpack loader configurations
+- [[https://github.com/tannerlinsley/react-table][tannerlinsley/react-table]] ⚛️ Hooks for building fast and extendable tables and datagrids for React
+- [[https://github.com/facebook/jest][facebook/jest]] Delightful JavaScript Testing.
+- [[https://github.com/maicki/why-did-you-update][maicki/why-did-you-update]] :boom: Puts your console on blast when React is making unnecessary updates.
+- [[https://github.com/brunch/brunch][brunch/brunch]] :fork_and_knife: Web applications made easy. Since 2011.
+- [[https://github.com/Marak/faker.js][Marak/faker.js]] generate massive amounts of realistic fake data in Node.js and the browser
+- [[https://github.com/magcius/xplain][magcius/xplain]] Interactive demos
+- [[https://github.com/Airblader/node-tinywm][Airblader/node-tinywm]] TinyWM written in node.js
+- [[https://github.com/sidorares/react-x11][sidorares/react-x11]] React renderer with X11 as a target
+- [[https://github.com/bu/OdieWM][bu/OdieWM]] A pure javascript-based window manager
+- [[https://github.com/AirWM/AirWM][AirWM/AirWM]] A customizable Tiling Window Manager for X implemented in JavaScript.
+- [[https://github.com/sidorares/node-x11][sidorares/node-x11]] X11 node.js network protocol client
+- [[https://github.com/async-library/react-async][async-library/react-async]] 🍾 Flexible promise-based React data loader
+- [[https://github.com/Andarist/use-constant][Andarist/use-constant]]
+- [[https://github.com/github/opensource.guide][github/opensource.guide]] 📚 Community guides for open source creators
+- [[https://github.com/micheleg/dash-to-dock][micheleg/dash-to-dock]] A dock for the Gnome Shell. This extension   moves the dash out of the overview transforming it in a dock for an easier   launching of applications and a faster switching between windows and desktops.
+- [[https://github.com/hardpixel/unite-shell][hardpixel/unite-shell]] Unite is an extension that makes GNOME Shell look like Ubuntu Unity Shell.
+- [[https://github.com/KaiHotz/react-rollup-boilerplate][KaiHotz/react-rollup-boilerplate]] Boilerplate for writing React Libraries bundled with Rollup.js to commonJs and ES6 Modules and React Styleguidist
+- [[https://github.com/tunnckoCoreLabs/parse-commit-message][tunnckoCoreLabs/parse-commit-message]] Parse, stringify or validate a commit messages that follows Conventional Commits Specification
+- [[https://github.com/pastelsky/bundlephobia][pastelsky/bundlephobia]] 🏋️ Find out the cost of adding a new frontend dependency to your project
+- [[https://github.com/mantoni/core_d.js][mantoni/core_d.js]] Offload your heavy lifting to a daemon. Extracted from eslint_d.
+- [[https://github.com/testing-library/react-testing-library][testing-library/react-testing-library]] 🐐 Simple and complete React DOM testing utilities that encourage good testing practices.
+- [[https://github.com/jorgebucaran/superfine][jorgebucaran/superfine]] Minimal view layer for building web interfaces.
+- [[https://github.com/andyholmes/gnome-shell-extension-gsconnect][andyholmes/gnome-shell-extension-gsconnect]] KDE Connect implementation for GNOME
+- [[https://github.com/paperwm/PaperWM][paperwm/PaperWM]] Tiled scrollable window management for Gnome Shell
+- [[https://github.com/intika/Librefox][intika/Librefox]] Librefox: Firefox with privacy enhancements
+- [[https://github.com/mateodelnorte/meta][mateodelnorte/meta]] tool for turning many repos into a meta repo. why choose many repos or a monolithic repo, when you can have both with a meta repo?
+- [[https://github.com/PapyElGringo/material-shell][PapyElGringo/material-shell]] New shell for Gnome following the Material-design guidelines. Proposing a performant and simple opinionated mouse / keyboard workflow to increase daily productivity and comfort
+- [[https://github.com/jonnyasmar/linux-win-pos][jonnyasmar/linux-win-pos]] A dead-simple window tiling manager for Linux desktop environments (like Gnome & Unity) written in Node.
+- [[https://github.com/danielpza/tsx-to-string][danielpza/tsx-to-string]] Use tsx files as templates for your html!
+- [[https://github.com/aaronraimist/DontFuckWithPaste][aaronraimist/DontFuckWithPaste]] Google Chrome and Firefox extension that prevents the blocking of pasting into input fields
+- [[https://github.com/signalapp/Signal-Desktop][signalapp/Signal-Desktop]] Signal — Private Messenger for Windows, Mac, and Linux
+- [[https://github.com/dondido/express-es6-template-engine][dondido/express-es6-template-engine]] Rendering engine for Express that uses ES6 javascript string templates as syntax.
+- [[https://github.com/davidbanham/express-async-errors][davidbanham/express-async-errors]] async/await support for ExpressJS
+- [[https://github.com/mysticatea/npm-run-all][mysticatea/npm-run-all]] A CLI tool to run multiple npm-scripts in parallel or sequential.
+- [[https://github.com/jzillmann/pdf-to-markdown][jzillmann/pdf-to-markdown]] A PDF to Markdown converter
+- [[https://github.com/EmailThis/extension-boilerplate][EmailThis/extension-boilerplate]] ⚡️ A template for building cross browser extensions for Chrome, Opera & Firefox.
+- [[https://github.com/openstyles/stylus][openstyles/stylus]] Stylus - Userstyles Manager
+- [[https://github.com/krausest/js-framework-benchmark][krausest/js-framework-benchmark]] A comparison of the perfomance of a few popular javascript frameworks
+- [[https://github.com/tagspaces/tagspaces][tagspaces/tagspaces]] TagSpaces is an offline, open source, document manager with tagging support
+- [[https://github.com/maikelvl/dot-json][maikelvl/dot-json]] Easily edit a json file from the CLI or NodeJS
+- [[https://github.com/kefranabg/readme-md-generator][kefranabg/readme-md-generator]] 📄 CLI that generates beautiful README.md files
+- [[https://github.com/nice-registry/ghub.io][nice-registry/ghub.io]] Redirect to an npm package's repository page
+- [[https://github.com/OpenUserJS/OpenUserJS.org][OpenUserJS/OpenUserJS.org]] The home of FOSS user scripts.
+- [[https://github.com/Stuk/jszip][Stuk/jszip]] Create, read and edit .zip files with Javascript
+- [[https://github.com/fkling/astexplorer][fkling/astexplorer]] A web tool to explore the ASTs generated by various parsers.
+- [[https://github.com/gilamran/tsc-watch][gilamran/tsc-watch]] The TypeScript compiler with --watch and a new onSuccess argument
+- [[https://github.com/npms-io/npms-www][npms-io/npms-www]] The https://npms.io website
+- [[https://github.com/broofa/npmgraph][broofa/npmgraph]]
+- [[https://github.com/editorconfig/editorconfig-core-js][editorconfig/editorconfig-core-js]] EditorConfig Core library and command line utility written in JavaScript
+- [[https://github.com/Yomguithereal/react-blessed][Yomguithereal/react-blessed]] A react renderer for blessed.
+- [[https://github.com/chjj/blessed][chjj/blessed]] A high-level terminal interface library for node.js.
+- [[https://github.com/embark-framework/neo-blessed][embark-framework/neo-blessed]] A drop-in replacement for for Blessed. A high-level terminal interface library for node.js.
+- [[https://github.com/Rich-Harris/degit][Rich-Harris/degit]] Straightforward project scaffolding
+- [[https://github.com/sveltejs/svelte][sveltejs/svelte]] Cybernetically enhanced web apps
+- [[https://github.com/fgblomqvist/steamworkshopdownloader][fgblomqvist/steamworkshopdownloader]] A website for downloading content from Steam Workshop.
+- [[https://github.com/Qard/onchange][Qard/onchange]] Use glob patterns to watch file sets and run a command when anything is added, changed or deleted.
+- [[https://github.com/unifiedjs/unified-args][unifiedjs/unified-args]] Create CLIs for unified processors
+- [[https://github.com/ternjs/tern][ternjs/tern]] A JavaScript code analyzer for deep, cross-editor language support
+- [[https://github.com/fstirlitz/luaparse][fstirlitz/luaparse]] A Lua parser written in JavaScript
+- [[https://github.com/gorhill/uBlock][gorhill/uBlock]] uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.
+- [[https://github.com/jhchen/fast-diff][jhchen/fast-diff]] A fast Javascript string diff
+- [[https://github.com/kpdecker/jsdiff][kpdecker/jsdiff]] A javascript text differencing implementation.
+- [[https://github.com/ariporad/pirates][ariporad/pirates]] Properly hijack require
+- [[https://github.com/istanbuljs/append-transform][istanbuljs/append-transform]] handle multiple require hooks
+- [[https://github.com/craigdmckenna/markdown-it-front-matter][craigdmckenna/markdown-it-front-matter]] Plugin to process front matter container for markdown-it markdown parser
+- [[https://github.com/markdown-it/markdown-it][markdown-it/markdown-it]] Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed
+- [[https://github.com/Ghost---Shadow/i18nize-react][Ghost---Shadow/i18nize-react]] Internationalize react apps within a lunch break
+- [[https://github.com/optimisme/gjs-examples][optimisme/gjs-examples]] GJS examples showing how to build Gtk javascript applications
+- [[https://github.com/toniov/p-iteration][toniov/p-iteration]] Utilities that make array iteration easy when using async/await or Promises
+- [[https://github.com/home-sweet-gnome/dash-to-panel][home-sweet-gnome/dash-to-panel]] An icon taskbar for the Gnome Shell. This extension moves the dash into the gnome main panel so that the application launchers and system tray are combined into a single panel, similar to that found in KDE Plasma and Windows 7+. A separate dock is no longer needed for easy access to running and favorited applications.
+- [[https://github.com/awesome-selfhosted/awesome-selfhosted][awesome-selfhosted/awesome-selfhosted]] A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers
+- [[https://github.com/huytd/agar.io-clone][huytd/agar.io-clone]] Agar.io clone written with Socket.IO and HTML5 canvas
+- [[https://github.com/pwmckenna/node-travis-ci][pwmckenna/node-travis-ci]] node library to access the Travis-CI API
+- [[https://github.com/jaredpalmer/tsdx][jaredpalmer/tsdx]] Zero-config CLI for TypeScript package development
+- [[https://github.com/timmyRS/Universal-Bypass][timmyRS/Universal-Bypass]] Don't waste your time with compliance. Universal Bypass circumvents annoying link shorteners.
+- [[https://github.com/kendricktan/ledger-analytics][kendricktan/ledger-analytics]] Easy to use analytics/visualization tool for ledger-cli
+- [[https://github.com/qgustavor/megajs-cli][qgustavor/megajs-cli]] The CLI version of MEGAJS
+- [[https://github.com/qgustavor/mega][qgustavor/mega]] Unofficial JavaScript SDK for MEGA
+- [[https://github.com/Qix-/color-string][Qix-/color-string]] Parser and generator for CSS color strings
+- [[https://github.com/sweet-js/sweet-core][sweet-js/sweet-core]] Sweeten your JavaScript.
+- [[https://github.com/codecov/example-node][codecov/example-node]] Example repo for uploading reports to Codecov
+- [[https://github.com/codemix/babel-plugin-macros][codemix/babel-plugin-macros]] Hygienic, non-syntactic macros for JavaScript via a Babel plugin.
+- [[https://github.com/zkochan/shieldman][zkochan/shieldman]] Badges creator
+- [[https://github.com/auchenberg/volkswagen][auchenberg/volkswagen]] :see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.
+- [[https://github.com/ianstormtaylor/slate][ianstormtaylor/slate]] A completely customizable framework for building rich text editors. (Currently in beta.)
+- [[https://github.com/cssinjs/jss][cssinjs/jss]] JSS is an authoring tool for CSS which uses JavaScript as a host language.
+- [[https://github.com/antonmedv/fx][antonmedv/fx]] Command-line tool and terminal JSON viewer 🔥
+- [[https://github.com/facebook/jscodeshift][facebook/jscodeshift]] A JavaScript codemod toolkit.
+- [[https://github.com/visionmedia/node-progress][visionmedia/node-progress]] Flexible ascii progress bar for nodejs
+- [[https://github.com/zaach/jison][zaach/jison]] Bison in JavaScript.
+- [[https://github.com/aaditmshah/lexer][aaditmshah/lexer]] An elegant armor-plated JavaScript lexer modelled after flex. Easily extensible to tailor to your need for perfection.
+- [[https://github.com/syntax-tree/unist-util-visit][syntax-tree/unist-util-visit]] unist utility to visit nodes
+- [[https://github.com/segmentio/ware][segmentio/ware]] Easily create your own middleware layer.
+- [[https://github.com/glorious-codes/glorious-demo][glorious-codes/glorious-demo]] The easiest way to demonstrate your code in action.
+- [[https://github.com/preactjs/preact][preactjs/preact]] ⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.
+- [[https://github.com/styled-components/polished][styled-components/polished]] A lightweight toolset for writing styles in JavaScript ✨
+- [[https://github.com/lichaozhy/svg-captcha][lichaozhy/svg-captcha]] generate svg captcha in node
+- [[https://github.com/pomber/git-history][pomber/git-history]] Quickly browse the history of a file from any git repository
+- [[https://github.com/commitizen/cz-cli][commitizen/cz-cli]] The commitizen command line utility.
+- [[https://github.com/ghacksuserjs/ghacks-user.js][ghacksuserjs/ghacks-user.js]] An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting
+- [[https://github.com/feross/clipboard-copy][feross/clipboard-copy]] Lightweight copy to clipboard for the web
+- [[https://github.com/sindresorhus/p-defer][sindresorhus/p-defer]] Create a deferred promise
+- [[https://github.com/laat/remove-children][laat/remove-children]] Remove children from DOM-node
+- [[https://github.com/zeit/serve-handler][zeit/serve-handler]] The foundation of `serve`
+- [[https://github.com/zeit/pkg][zeit/pkg]] Package your Node.js project into an executable
+- [[https://github.com/zeit/serve][zeit/serve]] Static file serving and directory listing
+- [[https://github.com/zeit/micro][zeit/micro]] Asynchronous HTTP microservices
+- [[https://github.com/pinojs/pino][pinojs/pino]] 🌲 super fast, all natural json logger 🌲
+- [[https://github.com/sindresorhus/wait-for-localhost-cli][sindresorhus/wait-for-localhost-cli]] Wait for localhost to be ready from the command-line
+- [[https://github.com/fgnass/node-dev][fgnass/node-dev]] Zero-conf Node.js reloading
+- [[https://github.com/sonnyp/aria2.js][sonnyp/aria2.js]] JavaScript library for aria2, "The next generation download utility."
+- [[https://github.com/bda-research/node-crawler][bda-research/node-crawler]] Web Crawler/Spider for NodeJS + server-side jQuery ;-)
+- [[https://github.com/cheeriojs/cheerio][cheeriojs/cheerio]] Fast, flexible, and lean implementation of core jQuery designed specifically for the server.
+- [[https://github.com/goldbergyoni/nodebestpractices][goldbergyoni/nodebestpractices]] :white_check_mark: The largest Node.js best practices list (November 2019)
+- [[https://github.com/ethereum/web3.js][ethereum/web3.js]] Ethereum JavaScript API
+- [[https://github.com/get-alex/alex][get-alex/alex]] Catch insensitive, inconsiderate writing
+- [[https://github.com/zeit/ncc][zeit/ncc]] Compile a Node.js project into a single file. Supports TypeScript, binary addons, dynamic requires.
+- [[https://github.com/jharris4/html-webpack-tags-plugin][jharris4/html-webpack-tags-plugin]] lets you define html tags to inject with html-webpack-plugin
+- [[https://github.com/jantimon/html-webpack-plugin][jantimon/html-webpack-plugin]] Simplifies creation of HTML files to serve your webpack bundles
+- [[https://github.com/unifiedjs/unified][unifiedjs/unified]] ☔️ friendly interface backed by an ecosystem of plugins built for creating and manipulating content
+- [[https://github.com/ziahamza/webui-aria2][ziahamza/webui-aria2]] The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.
+- [[https://github.com/schiehll/react-alert][schiehll/react-alert]] alerts for React
+- [[https://github.com/ZijianHe/koa-router][ZijianHe/koa-router]] Router middleware for koa.
+- [[https://github.com/koajs/bodyparser][koajs/bodyparser]] a body parser for koa
+- [[https://github.com/vkurchatkin/koa-connect][vkurchatkin/koa-connect]] Use connect and express middleware in koa
+- [[https://github.com/koajs/koa][koajs/koa]] Expressive middleware for node.js using ES2017 async functions
+- [[https://github.com/anvaka/npmgraph.an][anvaka/npmgraph.an]] 2d visualization of npm
+- [[https://github.com/lukeed/kleur][lukeed/kleur]] The fastest Node.js library for formatting terminal text with ANSI colors~!
+- [[https://github.com/terkelg/sisteransi][terkelg/sisteransi]] ANSI escape codes for some terminal swag.
+- [[https://github.com/terkelg/prompts][terkelg/prompts]] ❯ Lightweight, beautiful and user-friendly interactive prompts
+- [[https://github.com/gajus/bundle-dependencies][gajus/bundle-dependencies]] Generates bundledDependencies package.json value using values of the dependencies property. Updates package.json definition using the generated bundledDependencies value.
+- [[https://github.com/sindresorhus/execa][sindresorhus/execa]] Process execution for humans
+- [[https://github.com/lerna/lerna][lerna/lerna]] :dragon: A tool for managing JavaScript projects with multiple packages.
+- [[https://github.com/SBoudrias/Inquirer.js][SBoudrias/Inquirer.js]] A collection of common interactive command line user interfaces.
+- [[https://github.com/negativetwelve/jest-plugins][negativetwelve/jest-plugins]] Adds plugins feature to jest for easily adding extensions.
+- [[https://github.com/theKashey/rewiremock][theKashey/rewiremock]] The right way to mock dependencies in Node.js or webpack environment.
+- [[https://github.com/electerious/fsify][electerious/fsify]] Convert an array of objects into a persistent or temporary directory structure.
+- [[https://github.com/azz/pretty-quick][azz/pretty-quick]] ⚡ Get Pretty Quick
+- [[https://github.com/hemanth/node-prepend-file][hemanth/node-prepend-file]] Prepend data to a file.
+- [[https://github.com/martinvd/prepend-file-cli][martinvd/prepend-file-cli]] Prepend data to a file.
+- [[https://github.com/conventional-changelog/commitlint][conventional-changelog/commitlint]] 📓 Lint commit messages
+- [[https://github.com/semantic-release/semantic-release][semantic-release/semantic-release]] :package::rocket: Fully automated version management and package publishing
+- [[https://github.com/pedsmoreira/battlecry][pedsmoreira/battlecry]] Open source scaffolding CLI for everyone
+- [[https://github.com/carbon-app/carbon][carbon-app/carbon]] 🎨 Create and share beautiful images of your source code
+- [[https://github.com/conventional-changelog/conventional-changelog][conventional-changelog/conventional-changelog]] Generate changelogs and release notes from a project's commit messages and metadata.
+- [[https://github.com/conventional-changelog/standard-version][conventional-changelog/standard-version]] :trophy: Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org
+- [[https://github.com/jamestalmage/is-git-clean][jamestalmage/is-git-clean]] Find out if a git directory is clean or not
+- [[https://github.com/kentcdodds/nps-utils][kentcdodds/nps-utils]] Utilities for http://npm.im/nps (npm-package-scripts)
+- [[https://github.com/olistic/warriorjs][olistic/warriorjs]] 🏰 An exciting game of programming and Artificial Intelligence
+- [[https://github.com/gajus/async-request][gajus/async-request]] async-request is a wrapper for request that uses ES7 async functions.
+- [[https://github.com/majgis/catchify][majgis/catchify]] An async/await utility to eliminate try/catch in favor of error values.
+- [[https://github.com/prettier/prettier][prettier/prettier]] Prettier is an opinionated code formatter.
+- [[https://github.com/VSpaceCode/VSpaceCode][VSpaceCode/VSpaceCode]] Spacemacs' like keybindings for Visual Studio Code
+- [[https://github.com/jprichardson/node-fs-extra][jprichardson/node-fs-extra]] Node.js: extra methods for the fs object like copy(), remove(), mkdirs()
+- [[https://github.com/jgranstrom/sass-extract][jgranstrom/sass-extract]] Extract structured variables from sass files
+- [[https://github.com/substack/node-mkdirp][substack/node-mkdirp]] Recursively mkdir, like `mkdir -p`, but in node.js
+- [[https://github.com/parcel-bundler/parcel][parcel-bundler/parcel]] 📦🚀 Blazing fast, zero configuration web application bundler
+- [[https://github.com/typicode/pkg-ok][typicode/pkg-ok]] 👌 Checks paths and scripts defined in package.json before you publish
+- [[https://github.com/typicode/husky][typicode/husky]] 🐶 Git hooks made easy
+- [[https://github.com/silvenon/webpack-dash][silvenon/webpack-dash]] Dash docset for webpack.
+- [[https://github.com/williamkapke/bson-objectid][williamkapke/bson-objectid]] Construct ObjectIDs without the mongodb driver or bson module
+- [[https://github.com/airbnb/javascript][airbnb/javascript]] JavaScript Style Guide
