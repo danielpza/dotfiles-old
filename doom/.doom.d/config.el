@@ -6,15 +6,12 @@
   (interactive "r")
   (align-regexp b e "\\( *\\)\".*\"" 1 1 nil)
   (align-regexp b e "\" . *\"\\( *\\)\".*\"" 1 1 nil)
-  (align-regexp b e "\\( *\\)#'" 1 1 nil)
-  )
+  (align-regexp b e "\\( *\\)#'" 1 1 nil))
 
 (defun remove-c-comments ()
   (interactive)
   (evil-ex "%s/\\/\\*.*\\*\\/")
-  (evil-ex "%s/\\/\\/.*$")
-  )
-
+  (evil-ex "%s/\\/\\/.*$"))
 
 (defun npm-mode-run-test ()
   (interactive)
@@ -38,7 +35,7 @@
       :desc "Find file in project" "pf"    #'+ivy/projectile-find-file
       :desc "M-x"                  "SPC"   #'execute-extended-command
       :desc "Sort Lines"           "cl"    #'sort-lines
-      :desc "Revert buffer"        "br"  #'revert-buffer
+      :desc "Revert buffer"        "br"    #'revert-buffer
       :desc "Quickrun interactive" "cE"    #'quickrun-shell
       :desc "Next Error"           "en"    #'flycheck-next-error
       :desc "Previous Error"       "ep"    #'flycheck-previous-error
@@ -51,6 +48,9 @@
       :desc "Compile ts to clipboard" "oj" #'compile-ts-to-clipboard
       :desc "Evil Quit"            "wd"    #'evil-quit
       :desc "Open Terminal"        "ot"    #'open-terminal-in-workdir
+      :desc "Org clock-in last"       "Tc"    #'org-clock-in-last
+      :desc "Org clock-out"           "TC"    #'org-clock-out
+      :desc "Org go to current clock" "Tg"    #'org-clock-goto
       )
 
 (map! :localleader
@@ -70,10 +70,13 @@
       :desc "Fix"                  "rf"   #'tide-fix
       )
 
-(add-to-list 'auto-mode-alist '("\\.js\\'"    . typescript-mode))
+;; (add-to-list 'auto-mode-alist '("\\.js\\'"    . typescript-mode))
 (add-to-list 'auto-mode-alist '("\\.ts\\'"    . typescript-mode))
 (add-to-list 'auto-mode-alist '("\\.tsx\\'"    . typescript-mode))
 (add-to-list 'interpreter-mode-alist '("node" . typescript-mode))
+
+;; (after! lua-mode
+;;   (set-formatter! 'lua-mode #'prettier))
 
 (after! magit
   (setq magit-display-buffer-function #'magit-display-buffer-fullcolumn-most-v1))
@@ -82,8 +85,11 @@
   (setq doom-themes-treemacs-theme "doom-colors")
   (setq treemacs-follow-mode t))
 
-(after! format
-  (setq +format-on-save-enabled-modes '(not js2-mode typescript-mode emacs-lisp-mode)))
+(after! js2-mode
+  (add-hook 'js2-mode-hook #'eslintd-fix-mode))
+
+;; (after! format
+;;   (setq +format-on-save-enabled-modes '(not js2-mode typescript-mode emacs-lisp-mode)))
 
 (set-eval-handler! 'typescript-mode
   '((:command     . "ts-node")
@@ -111,3 +117,5 @@
 
 (custom-set-faces
  '(magit-branch-current ((t (:foreground "spring green")))))
+
+(set-face-attribute 'default nil :height 160)
