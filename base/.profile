@@ -29,6 +29,7 @@ export PYTHONUSERBASE="$HOME/usr"
 # bins
 includedir "$HOME/var/npm/bin"
 includedir "$HOME/usr/bin"
+includedir "$HOME/.cargo/bin"
 
 # Default Apps
 export EDITOR="vim"

@@ -37,6 +37,7 @@
       :desc "Sort Lines"           "cl"    #'sort-lines
       :desc "Revert buffer"        "br"    #'revert-buffer
       :desc "Quickrun interactive" "cE"    #'quickrun-shell
+      :desc "Lsp Format"           "cF"    #'lsp-format-buffer
       :desc "Next Error"           "en"    #'flycheck-next-error
       :desc "Previous Error"       "ep"    #'flycheck-previous-error
       :desc "Delete buffer"        "bd"    #'kill-this-buffer
