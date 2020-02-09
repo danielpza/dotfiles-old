@@ -26,10 +26,13 @@ export NPM_CONFIG_USERCONFIG="$HOME/etc/npmrc"
 # https://github.com/pypa/pip/issues/446
 export PYTHONUSERBASE="$HOME/usr"
 
+export GRADLE_HOME="$HOME/apps/gradle/gradle-6.1.1"
+
 # bins
 includedir "$HOME/var/npm/bin"
 includedir "$HOME/usr/bin"
 includedir "$HOME/.cargo/bin"
+includedir "${GRADLE_HOME}/bin"
 
 # Default Apps
 export EDITOR="vim"
