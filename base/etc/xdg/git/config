@@ -2,6 +2,6 @@
 	email = danielpza@protonmail.com
 	name = Daniel Perez Alvarez
 [credential]
-	helper = store
+	helper = libsecret
 [github]
 	user = danielpza
