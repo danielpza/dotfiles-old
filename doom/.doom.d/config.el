@@ -2,6 +2,11 @@
 
 ;; Place your private configuration here
 
+(defun sort-simple-imports (b e)
+  (interactive "r")
+  (sort-regexp-fields nil "^.*\\('.*'\\|\".*\"\\).*$" "\\1" b e))
+
+
 (defun align-doom-map (b e)
   (interactive "r")
   (align-regexp b e "\\( *\\)\".*\"" 1 1 nil)
