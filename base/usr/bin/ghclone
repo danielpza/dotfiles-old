@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+# Clonse github project under user/project
+# Usage: ghclone https://github.com/user/project
+
+# https://stackoverflow.com/a/6174447
+proto="$(echo $1 | grep :// | sed -e's,^\(.*://\).*,\1,g')"
+url="$(echo ${1/$proto/})"
+user="$(echo $url | grep @ | cut -d@ -f1)"
+hostport="$(echo ${url/$user@/} | cut -d/ -f1)"
+host="$(echo $hostport | sed -e 's,:.*,,g')"
+port="$(echo $hostport | sed -e 's,^.*:,:,g' -e 's,.*:\([0-9]*\).*,\1,g' -e 's,[^0-9],,g')"
+path="$(echo $url | grep / | cut -d/ -f2-)"
+
+mkdir -p "$path"
+git clone "$1.git" "$path"
