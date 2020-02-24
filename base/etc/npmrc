@@ -1,4 +1,4 @@
-cache=/home/daniel/var/npm-cache
+cache=/home/daniel/var/cache/npm
 store-dir=~/var/pnpm
 prefix=/home/daniel/var/npm
 init-author-name=Daniel Perez Alvarez
