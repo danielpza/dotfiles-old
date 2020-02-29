@@ -19,25 +19,27 @@ includesh() {
 
 # https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
 # https://wiki.archlinux.org/index.php/XDG_Base_Directory
-export XDG_DATA_HOME="$HOME/usr/share"
-export XDG_CACHE_HOME="$HOME/var/cache"
-export XDG_CONFIG_HOME="$HOME/etc/xdg"
-export NPM_CONFIG_USERCONFIG="$HOME/etc/npmrc"
-export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
+export XDG_DATA_HOME="$HOME"/usr/share
+export XDG_CACHE_HOME="$HOME"/var/cache
+export XDG_CONFIG_HOME="$HOME"/etc/xdg
+export NPM_CONFIG_USERCONFIG="$HOME"/etc/npmrc
+
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+export HISTFILE="$XDG_DATA_HOME"/bash/history
+export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
+export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
+export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
 # https://github.com/pypa/pip/issues/446
 export PYTHONUSERBASE="$HOME/var/pip"
 # https://doc.rust-lang.org/cargo/guide/cargo-home.html
 export CARGOHOME="$HOME/var/cargo"
 
-# export GRADLE_HOME="$HOME/apps/gradle/gradle-6.1.1"
-
 # bins
 includedir "$HOME/usr/bin"
 includedir "$HOME/var/npm/bin"
 includedir "$PYTHONUSERBASE/bin"
 includedir "$CARGOHOME/bin"
-# includedir "${GRADLE_HOME}/bin"
 
 # Default Apps
 export EDITOR="vim"
