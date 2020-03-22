@@ -33,13 +33,13 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 # https://github.com/pypa/pip/issues/446
 export PYTHONUSERBASE="$HOME/var/pip"
 # https://doc.rust-lang.org/cargo/guide/cargo-home.html
-export CARGOHOME="$HOME/var/cargo"
+export CARGO_HOME="$HOME/var/cargo"
 
 # bins
 includedir "$HOME/usr/bin"
 includedir "$HOME/var/npm/bin"
 includedir "$PYTHONUSERBASE/bin"
-includedir "$CARGOHOME/bin"
+includedir "$CARGO_HOME/bin"
 
 # Default Apps
 export EDITOR="vim"
