@@ -24,7 +24,7 @@ export XDG_CACHE_HOME="$HOME"/var/cache
 export XDG_CONFIG_HOME="$HOME"/etc/xdg
 export NPM_CONFIG_USERCONFIG="$HOME"/etc/npmrc
 
-export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+# export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export HISTFILE="$XDG_DATA_HOME"/bash/history
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
