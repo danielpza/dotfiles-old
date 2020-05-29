@@ -24,7 +24,8 @@ export XDG_CACHE_HOME="$HOME"/var/cache
 export XDG_CONFIG_HOME="$HOME"/etc/xdg
 export NPM_CONFIG_USERCONFIG="$HOME"/etc/npmrc
 
-# export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
+export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
+export XAUTHORITY="$XDG_RUNTIME_DIR"/Xauthority
 export HISTFILE="$XDG_DATA_HOME"/bash/history
 export NODE_REPL_HISTORY="$XDG_DATA_HOME"/node_repl_history
 export LESSKEY="$XDG_CONFIG_HOME"/less/lesskey
@@ -32,6 +33,7 @@ export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 
 # https://github.com/pypa/pip/issues/446
 export PYTHONUSERBASE="$HOME/var/pip"
+export PYENV_ROOT="$HOME/var/pyenv"
 # https://doc.rust-lang.org/cargo/guide/cargo-home.html
 export CARGO_HOME="$HOME/var/cargo"
 
@@ -40,11 +42,12 @@ includedir "$HOME/usr/bin"
 includedir "$HOME/var/npm/bin"
 includedir "$PYTHONUSERBASE/bin"
 includedir "$CARGO_HOME/bin"
+includedir "$PYENV_ROOT/shims"
 
 # Default Apps
 export EDITOR="vim"
-export TERMINAL="$(get_app st gnome-terminal)"
-export TERMCMD="$(get_app st)"
+# export TERMINAL="$(get_app st gnome-terminal)"
+# export TERMCMD="$(get_app st)"
 export BROWSER="firefox"
 export FILE="fff"
 
