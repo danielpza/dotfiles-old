@@ -1,5 +1,7 @@
 #!/bin/sh
 
-[ -f "$HOME/.fehbg" ] "$HOME/.fehgb"
+# [ -f "$HOME/.fehbg" ] "$HOME/.fehgb"
 
-dex -a &
+# syncthing &
+# nm-applet &
+# dex -a &
