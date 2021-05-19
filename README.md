@@ -1,4 +1,4 @@
-# My Dotfiles
+# My Dotfiles (OUTDATED)
 
 ## Installing components
 
