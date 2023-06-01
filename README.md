@@ -1,5 +1,7 @@
 # My Dotfiles (OUTDATED)
 
+new dotfiles at https://github.com/danielpza/dotfiles
+
 ## Installing components
 
 Select one of [i3, *dwm*, bspwm]
